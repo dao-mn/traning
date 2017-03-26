@@ -6,16 +6,35 @@ body {
   font-family: Arial, sans-serif;
 }
 table {
+  border-top: 1px solid black;
   border-collapse: collapse;
 }
 th {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   padding: 10px;
 }
 td {
-  border: 1px solid lightgray;
+  border-bottom: 1px solid lightgrey;
   padding: 10px;
 }
-caption {
-  caption-side: bottom;
+.row1 {
+  width: 33%;
+  text-align: left;
+}
+.row2 {
+  width: 33%;
+  text-align: center;
+}
+.row3 {
+  width: 33%;
+  text-align: right;
+}
+.col1 {
+  background-color: darkcyan;
+}
+.col2 {
+  background-color: lightyellow;
+}
+.centr {
+  background-color: lightblue;
 }
