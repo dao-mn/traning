@@ -1,40 +1,14 @@
-body {
-  width: 350px;
-  margin: 0;
-  padding: 0 10px;
-  font-size: 14px;
-  font-family: Arial, sans-serif;
+.block {
+  width: 210px;
+  height: 200px;
+  float: left;
+  border: 2px solid green;
 }
-table {
-  border-top: 1px solid black;
-  border-collapse: collapse;
+.block1 {
+  border-style: dotted;
+  margin-right: 20px;
 }
-th {
-  border-bottom: 1px solid black;
-  padding: 10px;
-}
-td {
-  border-bottom: 1px solid lightgrey;
-  padding: 10px;
-}
-.row1 {
-  width: 33%;
-  text-align: left;
-}
-.row2 {
-  width: 33%;
-  text-align: center;
-}
-.row3 {
-  width: 33%;
-  text-align: right;
-}
-.col1 {
-  background-color: darkcyan;
-}
-.col2 {
-  background-color: lightyellow;
-}
-.centr {
-  background-color: lightblue;
+.block2 {
+  border-color: red;
+  margin-left: 20px;
 }
